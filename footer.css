@@ -1,0 +1,137 @@
+.footer{
+    height: 350px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: linear-gradient(rgb(27, 105, 135), rgb(39, 133, 171), rgb(57, 191, 244));
+    color: white;
+    font-family:'system-ui', 'Darker Grotesque', sans-serif;
+}
+.footer-icon{
+    height: 300px;
+    width: 18%;
+    /* border: 1px solid blue; */
+    margin-left: 50px;
+}
+.footer-links{
+    height: 300px;
+    width: 18%;
+    /* border: 1px solid green; */
+    margin-left: 30px;
+}
+.footer-links h3,.footer-contact h3,.footer-gallary h3{
+    color: skyblue;
+}
+.footer-links a{
+    display: flex;
+    list-style-type: none;
+    min-height: 20px;
+    padding-top:  20px ;
+    text-decoration: none;
+    color: white;
+    
+}
+.footer-contact{
+    height: 300px;
+    width: 18%;
+    /* border: 1px solid black; */
+    /* margin-left: -20px; */
+}
+/* Footer gallery and images  */
+.footer-gallary{
+    height: 300px;
+    width: 18%;
+    /* border: 1px solid yellow; */
+    margin-left: 30px;
+}
+.img-row{
+    height: 150px;
+    width: 80%;
+    /* background-color: teal; */
+}
+.img-row1-img{
+    height: 65px;
+    width: 65px;
+    object-fit: cover;
+}
+#icon-margin{
+margin-left: 15px;
+}
+
+.mail , .phone , .location{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 8px;
+}
+.p{
+    margin-left: 15px;
+}
+/* css for copyright */
+.copyright{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(135, 206, 235);
+    font-family: 'Darker Grotesque', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* Code to replace t about.css */
+.about-slider{
+    height: 600px;
+    width: 100%;
+    /* border: 1px solid green; */
+    /* background-color: black; */
+    margin-top: 5px;
+    display: flex;
+}
+#about-img{
+    /* height: 100%; */
+    width: 110%;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+.teeth-img{
+    height: 550px;
+    width: 40%;
+    /* border: 1px solid green; */
+}
+.teeth-text{
+    height: 700px;
+    width: 50% ;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    /* align-items: center; */
+    margin-top: 40px;
+    margin-left: 10%;
+}
+.teeth-text h1{
+    color: rgb(8, 99, 136);
+}
+.teeth-text h3{
+    color: rgb(52, 142, 178);
+}
+.teeth-text p{
+    letter-spacing: 2px;
+    font-size: large;
+    line-height: 22px;
+}
+.teeth-text ul{
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-size: large;
+    /* line-height: 22px; */
+}

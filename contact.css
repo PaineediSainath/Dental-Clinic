@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Css for main Heading in contact us page */
+.contact-main{
+    bottom: 1px solid red;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(64, 174, 218);
+    display: flex;
+   }
+.contact-img{
+    height: 400px;
+    width: 100%;
+    margin-left: 10%;
+
+}
+.img-wh-contact{
+    height: 400px;
+    width: 600px;
+    object-fit: cover;
+}

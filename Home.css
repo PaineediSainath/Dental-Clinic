@@ -1,0 +1,301 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.slider{
+    background-color: rgb(91, 190, 230);
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+         /* css for text and image */
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    height: 390px;
+    width: 40%;
+    word-spacing: 20px;
+}
+.text h1{
+    color: white;
+    word-spacing: 15px;
+    letter-spacing: 10px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.text h1 span{
+    color: rgb(11, 94, 127);
+    font-size: 35px;
+    letter-spacing: normal;
+}
+.imgwh{
+    height: 400px;
+    width: 145%;
+    object-fit: cover;
+
+}
+
+/* css for body content teeth image */
+
+.body-content{
+    margin-top: 2px;
+    height: 600px;
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+}
+.body.img{
+    width: 70% ;
+}
+.body-img-wh{
+    margin-left: 10px;
+    object-fit: fill;
+    height: 600px;
+    width: 150%;
+}
+.body-text{
+    font-family: 'Darker Grotesque', sans-serif;
+    opacity: 20px;
+    height: 600px;
+    /* width: 30%; */
+    /* border: 1px solid red; */
+    margin-left: 20%;
+    margin-top: 30px;
+}
+.body-text h2{
+    color: rgb(7, 59, 80);
+}
+.body-text h3{
+    color: skyblue;
+}
+.body-text p{
+    word-spacing: 10px;
+}
+.body-text li{
+    line-height: 50px;
+}
+.linktext{
+    margin-top: 50px;
+}
+.linktext a {
+    color: black;
+}
+
+               /* css for service class */
+.service{
+    height: 100px;
+    width: 74%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+.service h1{
+    color: rgb(11, 94, 127);
+    margin-left: 50px;
+}
+.service h1 span{
+    color: skyblue;
+}
+.service button{
+    margin-left: 220px;
+    height: 60px;
+    width: 190px;
+    color: white;
+    border: rgb(11, 94, 127) ;
+    background-color: rgb(11, 94, 127);
+    border-radius: 50px;
+}
+
+/* css for service boxes */
+
+.service-box{
+height: 1100px;
+width: 100%;
+/* border: 1px solid red; */
+}
+.service-box1{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.service-box2{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid green; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box{
+    height: 450px;
+    width: 300px;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px ;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+.box p{
+    /* text-align: justify; */
+    word-spacing: 3px;
+}
+.box img{
+    height: 300px;
+    width: 250px ;
+    
+}
+
+                    /* Css for inst-logo */
+.inst-logo{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(20, 112, 148);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+   
+    /* Css for .questions */
+
+.container{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+}
+.questions{
+    width: 90%;
+    height: auto;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.questions h3{
+    color:rgb(11, 94, 127) ;
+    font-size: xx-large;
+    margin-bottom: -24px;
+}
+.questions h4{
+    color: skyblue;
+    font-size: x-large;
+
+}
+.questions h2{
+    width: 98%;
+    background-color: rgb(63, 153, 189);
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+  justify-content: start;
+  font-family: 'Darker Grotesque', sans-serif;
+  }
+.questions p{
+    font-family:'system-ui' 'Darker Grotesque', sans-serif;
+}
+
+                /* Css for footer */
+.footer{
+    height: 350px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: linear-gradient(rgb(27, 105, 135), rgb(39, 133, 171), rgb(57, 191, 244));
+    color: white;
+    font-family:'system-ui', 'Darker Grotesque', sans-serif;
+}
+.footer-icon{
+    height: 300px;
+    width: 18%;
+    /* border: 1px solid blue; */
+    margin-left: 50px;
+}
+.footer-links{
+    height: 300px;
+    width: 18%;
+    /* border: 1px solid green; */
+    margin-left: 30px;
+}
+.footer-links h3,.footer-contact h3,.footer-gallary h3{
+    color: skyblue;
+}
+.footer-links a{
+    display: flex;
+    list-style-type: none;
+    min-height: 20px;
+    padding-top:  20px ;
+    text-decoration: none;
+    color: white;
+    
+}
+.footer-contact{
+    height: 300px;
+    width: 18%;
+    /* border: 1px solid black; */
+    /* margin-left: -20px; */
+}
+/* Footer gallery and images  */
+.footer-gallary{
+    height: 300px;
+    width: 18%;
+    /* border: 1px solid yellow; */
+    margin-left: 30px;
+}
+.img-row{
+    height: 150px;
+    width: 80%;
+    /* background-color: teal; */
+}
+.img-row1-img{
+    height: 65px;
+    width: 65px;
+    object-fit: cover;
+}
+#icon-margin{
+margin-left: 15px;
+}
+
+.mail , .phone , .location{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 8px;
+}
+.p{
+    margin-left: 15px;
+}
+/* css for copyright */
+.copyright{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(135, 206, 235);
+    font-family: 'Darker Grotesque', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
